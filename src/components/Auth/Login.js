@@ -60,9 +60,9 @@ class Login extends React.Component {
         return (
             <Grid textAlign="center" verticalAlign="middle" className="app">
                 <Grid.Column style={{ maxWidth: 450 }}>
-                    <Header as="h1" icon color="teal" textAlign="center">
-                        <Icon name="code branch" color="teal" />
-            Login to DevChat
+                    <Header as="h1" icon color="violet" textAlign="center">
+                        <Icon name="code branch" color="violet" />
+            Login to Slack Chat
           </Header>
                     <Form onSubmit={this.handleSubmit} size="large">
                         <Segment stacked>
@@ -93,7 +93,7 @@ class Login extends React.Component {
                             <Button
                                 disabled={loading}
                                 className={loading ? "loading" : ""}
-                                color="teal"
+                                color="violet"
                                 fluid
                                 size="large"
                             >
