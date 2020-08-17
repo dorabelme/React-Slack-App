@@ -119,8 +119,8 @@ export class Register extends Component {
         return (
             <Grid textAlign="center" verticalAlign="middle" className='app'>
                 <Grid.Column style={{ maxWidth: 450 }}>
-                    <Header as="h1" icon color="teal" textAlign="center">
-                        <Icon name="puzzle piece" color="teal" />
+                    <Header as="h1" icon color="violet" textAlign="center">
+                        <Icon name="puzzle piece" color="violet" />
             Register for Slack Chat
           </Header>
                     <Form onSubmit={this.handleSubmit} size="large">
@@ -170,7 +170,7 @@ export class Register extends Component {
                                 onChange={this.handleChange}
                                 type="password"
                             />
-                            <Button disabled={loading} className={loading ? 'loading' : ''} fluid size="large" color="teal">Submit</Button>
+                            <Button disabled={loading} className={loading ? 'loading' : ''} fluid size="large" color="violet">Submit</Button>
                         </Segment>
                     </Form>
                     {errors.length > 0 && (
